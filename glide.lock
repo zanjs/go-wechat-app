@@ -1,0 +1,95 @@
+hash: 3e0b6f9cbd36463a84096051c024a47128fb520a5a62cd21c0fbf92f321dc5ec
+updated: 2018-04-23T20:35:51.639817+08:00
+imports:
+- name: github.com/appleboy/gin-jwt
+  version: f7347d7c16fc8297bf5b7215b9e4847a5ca05d90
+- name: github.com/fsnotify/fsnotify
+  version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
+- name: github.com/garyburd/redigo
+  version: 569eae59ada904ea8db7a225c2b47165af08735a
+  subpackages:
+  - internal
+  - redis
+- name: github.com/gin-contrib/sse
+  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
+- name: github.com/gin-gonic/gin
+  version: 814ac9490a38bb955a742d8ea15fa140489ee658
+  vcs: git
+  subpackages:
+  - binding
+  - json
+  - render
+- name: github.com/go-sql-driver/mysql
+  version: bc14601d1bd56421dd60f561e6052c9ed77f9daf
+- name: github.com/go-xorm/builder
+  version: a9b7ffcca3f0c6445c4e3b1bf72c01578817a6c3
+- name: github.com/go-xorm/core
+  version: f43c33d9a48db006417a7ac4c16b08897e3e1458
+- name: github.com/go-xorm/xorm
+  version: cd46810bf9951e108abc8b6b6d175bf621a1d5e0
+- name: github.com/golang/protobuf
+  version: 925541529c1fa6821df4e44ce2723319eb2be768
+  subpackages:
+  - proto
+- name: github.com/hashicorp/hcl
+  version: 23c074d0eceb2b8a5bfdbb271ab780cde70f05a8
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/printer
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/json-iterator/go
+  version: ea8c33040f099f56a80e7d84c1e3aa0a48ceddcd
+- name: github.com/magiconair/properties
+  version: 49d762b9817ba1c2e9d0c69183c2b4a8b8f1d934
+- name: github.com/mattn/go-isatty
+  version: 6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c
+- name: github.com/mitchellh/mapstructure
+  version: a4e142e9c047c904fa2f1e144d9a84e6133024bc
+- name: github.com/nanjishidu/wechat
+  version: af53967c4edf30aa6ed1d2ea583965617bcdc221
+  subpackages:
+  - small
+- name: github.com/pelletier/go-toml
+  version: acdc4509485b587f5e675510c4f2c63e90ff68a8
+- name: github.com/spf13/afero
+  version: bb8f1927f2a9d3ab41c9340aa034f6b803f4359c
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: acbeb36b902d72a7a4c18e8f3241075e7ab763e4
+- name: github.com/spf13/jwalterweatherman
+  version: 7c0cea34c8ece3fbeb2b27ab9b59511d360fb394
+- name: github.com/spf13/pflag
+  version: 4c012f6dcd9546820e378d0bdda4d8fc772cdfea
+- name: github.com/spf13/viper
+  version: 8dc2790b029dc41e2b8ff772c63c26adbb1db70d
+- name: github.com/ugorji/go
+  version: 9831f2c3ac1068a78f50999a30db84270f647af6
+  subpackages:
+  - codec
+- name: golang.org/x/sys
+  version: ff2a66f350cefa5c93a634eadb5d25bb60c85a9c
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: e19ae1496984b1c655b8044a65c0300a3c878dd3
+  subpackages:
+  - transform
+  - unicode/norm
+- name: google.golang.org/appengine
+  version: 5bee14b453b4c71be47ec1781b0fa61c2ea182db
+  subpackages:
+  - cloudsql
+- name: gopkg.in/dgrijalva/jwt-go.v3
+  version: dbeaa9332f19a944acb5736b4456cfcc02140e29
+- name: gopkg.in/go-playground/validator.v8
+  version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
+- name: gopkg.in/yaml.v2
+  version: d670f9405373e636a5a2765eea47fac0c9bc91a4
+testImports: []

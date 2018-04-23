@@ -1,0 +1,15 @@
+package: github.com/georgehao/wechat
+import:
+- package: github.com/gin-gonic/gin
+  version: master
+  vcs: git
+- package: github.com/appleboy/gin-jwt
+  version: ~2.3.1
+- package: github.com/nanjishidu/wechat
+- package: github.com/spf13/viper
+  version: master
+- package: github.com/go-xorm/xorm
+- package: github.com/garyburd/redigo
+  subpackages:
+  - redis
+- package: github.com/mitchellh/mapstructure
